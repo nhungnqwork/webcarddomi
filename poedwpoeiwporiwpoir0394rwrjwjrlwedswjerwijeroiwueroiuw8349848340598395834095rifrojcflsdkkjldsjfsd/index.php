@@ -23,7 +23,7 @@ require_once ('dbhelp.php');
 		<div class="panel panel-primary">
 			<div class="panel-heading">
 				<marquee style="font-size: 30px; color: royalblue;"> Welcome to Admin page !! 058.34.888.79 </marquee>
-				<a href="http://localhost/nhungquynh.living/webcard/poedwpoeiwporiwpoir0394rwrjwjrlwedswjerwijeroiwueroiuw8349848340598395834095rifrojcflsdkkjldsjfsd/index.php"><button class="btn btn-outline-success"><b>HOME</b></button></a>	
+				<a href="http://webcarddomi.herokuapp.com/poedwpoeiwporiwpoir0394rwrjwjrlwedswjerwijeroiwueroiuw8349848340598395834095rifrojcflsdkkjldsjfsd/index.php"><button class="btn btn-outline-success"><b>HOME</b></button></a>	
 				<form method="get">
 				<input type="text" name="s" class="form-control" style="margin-top: 15px; margin-bottom: 15px;" placeholder="Search"> 
 				</form>
