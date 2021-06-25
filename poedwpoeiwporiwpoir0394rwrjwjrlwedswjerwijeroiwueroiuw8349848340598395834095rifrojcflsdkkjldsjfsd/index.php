@@ -23,7 +23,7 @@ require_once ('dbhelp.php');
 		<div class="panel panel-primary">
 			<div class="panel-heading">
 				<marquee style="font-size: 30px; color: royalblue;"> Welcome to Admin page !! 058.34.888.79 </marquee>
-				<a href="http://webcarddomi.herokuapp.com/poedwpoeiwporiwpoir0394rwrjwjrlwedswjerwijeroiwueroiuw8349848340598395834095rifrojcflsdkkjldsjfsd/index.php"><button class="btn btn-outline-success"><b>HOME</b></button></a>	
+				<a href="http://localhost/nhungquynh.living/webcard/poedwpoeiwporiwpoir0394rwrjwjrlwedswjerwijeroiwueroiuw8349848340598395834095rifrojcflsdkkjldsjfsd/index.php"><button class="btn btn-outline-success"><b>HOME</b></button></a>	
 				<form method="get">
 				<input type="text" name="s" class="form-control" style="margin-top: 15px; margin-bottom: 15px;" placeholder="Search"> 
 				</form>
@@ -55,8 +55,8 @@ $index = 1;
 foreach ($studentList as $std) {
 	echo '<tr align="center">
 			<td>'.($index++).'</td>
-			<td>'.$std['fullname'].'</td>
-			<td>'.$std['age'].'</td>
+			<td style="font-size: 20px;">'.$std['fullname'].'</td>
+			<td style="font-size: 25px;">'.$std['age'].'</td>
 			<td style="color: red;">'.$std['address'].'</td>
 			<td><button class="btn btn-warning" onclick=\'window.open("input.php?id='.$std['id'].'","_self")\'>Edit</button></td>
 			<td><button class="btn btn-danger" onclick="deleteStudent('.$std['id'].')">Delete</button></td>
