@@ -19,7 +19,7 @@ require_once ('dbhelp.php');
 
 </head>
 <body>
-	<div class="container">
+	<div class="container-fluid">
 		<div class="panel panel-primary">
 			<div class="panel-heading">
 				<marquee style="font-size: 30px; color: royalblue;"> Welcome to Admin page !! 058.34.888.79 </marquee>
